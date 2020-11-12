@@ -1,10 +1,14 @@
 import menuCardsTpl from '../src/templates/menu-item.hbs';
 import menu from '../src/menu.json';
+
+
+console.log(menuCardsTpl(menu));
+
+
 const themeSwitchToggler = document.querySelector('#theme-switch-toggle');
 const menuContainer = document.querySelector('.js-menu');
 const body = document.body;
-const THEME_KEY = 'theme'; 
-
+const THEME_KEY = 'theme';
 const Theme = {
   LIGHT: 'light-theme',
   DARK: 'dark-theme',
