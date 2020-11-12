@@ -1,8 +1,5 @@
-import menuCardsTpl from '../src/templates/menu-item.hbs';
-import menu from '../src/menu.json';
-
-
-console.log(menuCardsTpl(menu));
+import menuCardsTpl from './menu.hbs';
+import menu from './menu.json';
 
 
 const themeSwitchToggler = document.querySelector('#theme-switch-toggle');
